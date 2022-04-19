@@ -1,0 +1,43 @@
+{
+    "key": "group_59e7bc9735e1a",
+    "title": "محصولات ساده",
+    "fields": [
+        {
+            "key": "field_59e7bcbcd387a",
+            "label": "فعال کردن محصولات ساده",
+            "name": "product_vendors_enable",
+            "type": "true_false",
+            "instructions": "این یک روش ساده برای اجازه دادن به کاربران برای ارسال محصولات خود در سایت شما است. این روش به شما اجازه نمی دهد هنگام فروش محصول ، مبلغی را دریافت و یا کارمزد دریافت کنید. مدیر سایت کلیه تراکنش ها را مدیریت می کند. اگر از پلاگین های فروشنده محصول استفاده می کنید ، این روش غیرفعال است زیرا سازگار نیست.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-integration-settings"
+            }
+        ]
+    ],
+    "menu_order": 20,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1587586239
+}
